@@ -5,31 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>个人简历</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <img src="" alt="logo">
+    <header class="clearfix">
+        <img src="../img/hot.jpeg" alt="logo" class="float_left">
         <nav>
-            <ul>
-                <li><a href="#">关于</a></li>
-                <li><a href="#">技能</a></li>
-                <li><a href="#">作品</a></li>
-                <li><a href="#">博客</a></li>
-                <li><a href="#">日历</a></li>
-                <li><a href="#">联系方式</a></li>
-                <li><a href="#">其他</a></li>
+            <ul class="clearfix">
+                <li class="float_right"><a href="#">关于</a></li>
+                <li class="float_right"><a href="#">技能</a></li>
+                <li class="float_right"><a href="#">作品</a></li>
+                <li class="float_right"><a href="#">博客</a></li>
+                <li class="float_right"><a href="#">日历</a></li>
+                <li class="float_right"><a href="#">联系方式</a></li>
+                <li class="float_right"><a href="#">其他</a></li>
             </ul>   
         </nav>
     </header>
-    <div class="banner" style="background-image: url(#);">
-
-    </div>
-    <div class="center">
-        <div class="photo">
-            <section class="drinks">
+    <div class="bg" style="background-image: url(#);"></div>
+    <main>
+        <div class="cores">
+            <section class="photos">
                 <img src="" alt="头像">
             </section>
-            <section class="main">
+            <section class="contents">
                 <span class="welcome">Hello</span>
                 <h1>罗德治</h1>
                 <p>前端开发工程师</p> <hr>
@@ -47,7 +46,7 @@
                     <dd>281104630@qq.com</dd>
     
                     <dt>GitHub</dt>
-                    <dd>luodz7702</dd>
+                    <dd>https://github.com/luodz7702</dd>
     
                     <dt>个人主页</dt>
                     <dd>luodz.top</dd>     
@@ -70,6 +69,32 @@
             做自己喜欢的工作，web前端开发。希望通过自己的努力成为前端大神！<br>
             技能：前端开发，Office，Python
         </p>
-    </div>
+    </main>
+    <section>
+        <h2>技能</h2>
+        <ol>
+            <li>HTML 5 &amp; CSS 3</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>Vue</li>
+            <li>React</li>
+            <li>HTTP</li>
+        </ol>
+    </section>
+    <section>
+        <h2>作品集</h2>
+        <nav>
+            <ol>
+                <li>所有</li>
+                <li>框架</li>
+                <li>JS &amp; CSS</li>
+            </ol>
+        </nav>
+        <div>
+            <div class="big"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+        </div>
+    </section>
 </body>
 </html>

@@ -1,0 +1,47 @@
+body{
+    background: black;
+}
+ul,ol{
+    margin: 0;
+    padding:0;
+    list-style:none;
+}
+/* 解决float  bug问题，clearfix加在float元素的父级标签上 */
+.clearfix::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+h1{
+    text-align:center;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+/* header>nav>ul{
+    border:1px solid red;
+} */
+header>nav>ul>li{
+    margin-left:17px;
+    margin-right:17px;
+}
+header>nav>ul>li>a{
+    font-size:12px;
+    color:#b7b7b7;
+    text-decoration: none;
+    font-weight:bold;
+    padding:4px;
+    border-bottom:3px solid transparent;
+    display: block;
+}
+header>img{
+    width:50px;
+}
+header>nav>ul>li>a:hover{
+    border-bottom:2px solid #e06567;
+    padding: 4px;
+}
