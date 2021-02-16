@@ -12,7 +12,7 @@ ul,ol{
     padding:0;
     list-style:none;
 }
-/* 解决float  bug问题，clearfix加在float元素的父级标签上 */
+
 .clearfix::after{
     content:'';
     display:block;
