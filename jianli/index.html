@@ -6,64 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>个人简历</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="//at.alicdn.com/t/font_2375030_r9q85agiih.js">
+
+    </script>
+    <style type="text/css">
+        .icon {
+        width: 1em; height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+        }
+    </style>
 </head>
 <body>
-    <header class="clearfix">
+    <header >
         <!-- <img src="../img/hot.jpeg" alt="logo" class="float_left"> -->
-        <a class="rscard float_left" href="#" alt="logo" >
-            <span class="rs">RS</span><span class="card">card</span>
-        </a>
-        <nav>
-            <ul class="clearfix">
-                <li class="float_right"><a href="#">关于</a></li>
-                <li class="float_right"><a href="#">技能</a></li>
-                <li class="float_right"><a href="#">作品</a></li>
-                <li class="float_right"><a href="#">博客</a></li>
-                <li class="float_right"><a href="#">日历</a></li>
-                <li class="float_right"><a href="#">联系方式</a></li>
-                <li class="float_right"><a href="#">其他</a></li>
-            </ul>   
-        </nav>
+        <div class="navbg clearfix">
+            <a class="rscard float_left" href="#" alt="logo" >
+                <span class="rs">RS</span><span class="card">card</span>
+            </a>
+            <nav>
+                <ul class="clearfix">
+                    <li class="float_right"><a href="#">关于</a></li>
+                    <li class="float_right"><a href="#">技能</a></li>
+                    <li class="float_right"><a href="#">作品</a></li>
+                    <li class="float_right"><a href="#">博客</a></li>
+                    <li class="float_right"><a href="#">日历</a></li>
+                    <li class="float_right"><a href="#">联系方式</a></li>
+                    <li class="float_right"><a href="#">其他</a></li>
+                </ul>   
+            </nav>
+        </div>
+        
     </header>
-    <div class="bg" ></div>
+
+    <div class="bg" >
+        <div class="mask"></div>
+    </div>
     <main>
         <div class="cores">
-            <section class="photos">
-                <img src="" alt="头像">
-            </section>
-            <section class="contents">
-                <span class="welcome">Hello</span>
-                <h1>罗德治</h1>
-                <p>前端开发工程师</p> <hr>
-                <dl>
-                    <dt>Age</dt>
-                    <dd>32</dd>
-    
-                    <dt>City</dt>
-                    <dd>杭州</dd>
+            <div class="photoAndData clearfix">
+                <section class="photos float_left">
+                    <img src="../img/photos.jpeg" alt="头像">
+                </section>
+                <section class="contents float_left">
+                    <span class="welcome">Hello
+                        <span class="triangle"></span>
+                    </span>
                     
-                    <dt>iPhone</dt>
-                    <dd>18610047702</dd>
-                    
-                    <dt>E-MALL</dt>
-                    <dd>281104630@qq.com</dd>
-    
-                    <dt>GitHub</dt>
-                    <dd>https://github.com/luodz7702</dd>
-    
-                    <dt>个人主页</dt>
-                    <dd>luodz.top</dd>     
-                </dl>
-    
-            </section>
+                    <h1>罗德治</h1>
+                    <p>前端开发工程师</p> <hr>
+                    <dl>
+                        <dt>Age</dt>
+                        <dd>32</dd>
+        
+                        <dt>City</dt>
+                        <dd>杭州</dd>
+                        
+                        <dt>iPhone</dt>
+                        <dd>18610047702</dd>
+                        
+                        <dt>E-MALL</dt>
+                        <dd>281104630@qq.com</dd>
+        
+                        <dt>GitHub</dt>
+                        <dd>https://github.com/luodz7702</dd>
+        
+                        <dt>个人主页</dt>
+                        <dd>luodz.top</dd>     
+                    </dl>
+        
+                </section>
+            </div>
             <footer class="media">
-                <a href="#"><img src="#" alt="..."> </a>
-                <a href="#"><img src="#" alt="..."> </a>
-                <a href="#"><img src="#" alt="..."> </a>
-                <a href="#"><img src="#" alt="..."> </a>
-                <a href="#"><img src="#" alt="..."> </a>
-                <a href="#"><img src="#" alt="..."> </a>
-                <a href="#"><img src="#" alt="..."> </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weixin"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weibo"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-zhihu-square-fill"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-QQ"></use>
+                    </svg>
+                </a>
             </footer>
         </div>
         <a href="#" class="button">Download 简历 PDF</a>
