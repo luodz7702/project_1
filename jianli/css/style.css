@@ -90,6 +90,7 @@ nav{
     height: 1200px;
     background-color:rgba(0, 0, 0, 0.8);
 }
+
 .cores{
     /* border: 2px solid red; */
     background-color: white;
@@ -97,6 +98,7 @@ nav{
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
+    margin-top:-900px;
 }
 .photos img{
     width:235px;
