@@ -247,12 +247,12 @@ main>.selfIntroduction{
     height:100%;
     border-radius: 4px;
 }
-.skills .progressBar .number1{width: 11%;}
-.skills .progressBar .number2{width: 22%;}
-.skills .progressBar .number3{width: 33%;}
-.skills .progressBar .number4{width: 44%;}
-.skills .progressBar .number5{width: 55%;}
-.skills .progressBar .number6{width: 66%;}
+.skills .progressBar .number1{width: 31%;}
+.skills .progressBar .number2{width: 20%;}
+.skills .progressBar .number3{width: 13%;}
+.skills .progressBar .number4{width: 12%;}
+.skills .progressBar .number5{width: 11%;}
+.skills .progressBar .number6{width: 21%;}
 .skills ol>li{
     float:left;
     width:48%;
