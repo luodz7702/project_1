@@ -1,0 +1,41 @@
+/* 清除默认样式 */
+body{
+    padding:0;
+    margin:0;
+    color:gray;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,li{
+    list-style: none;
+}
+
+
+/* 常用类 */
+
+/* header */
+header>.logo{
+    font-size: 18px;
+    font-weight: bolder;
+    float: left;
+}
+header>.logo>.rs{
+    color: rgba(205, 92, 92, 0.836);
+}
+header>.logo>.card{
+    color:gray;
+}
+
+header>nav>ul>li{
+    float:left;
+    font-size:11px;
+    border-top:3px solid transparent;
+    border-bottom:3px solid transparent;
+}
+header>nav>ul>li:hover{
+    border-bottom:3px solid rgb(220,80,88);
+    
+    
+}
