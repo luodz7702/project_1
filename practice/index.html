@@ -4,116 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>语法练习</title>
+    <title>学生信息统计表</title>
     <style>
-        iframe{
-            width:100%;
-            height:300px;
+        table{
+            border-collapse: collapse;
+            width: 600px;
+        }
+        td,th{
+            border: 1px solid black;
         }
     </style>
 </head>
 <body>
-    <div class="iframe">
-        <iframe name="new_window" src="http://www.baidu.com" frameborder="0"></iframe>
-        <a target="new_window" href="http://qq.com">qq首页</a>
-        <a target="new_window" href="http://baidu.com">百度首页</a>
-        <a target="new_window" href="http://luodz.top">luodz首页</a><br><br>
-        <a href="javascript: alert('这个观点我表示认同');">luodz很帅</a>
-        <a href="javascript: alert('哈哈');">haha</a>
-        <a href="javascript: ;);">123123</a>
-        <a href="//baidu.com" download > 下载 </a>
-    </div>
-
-    <div class="form">
-        <form action="haha9527" method="GET" target="_blank">
-            <input type="text" name="user">
-            <input type="password" name="password">
-            <button>如果没有提交按钮默认button为提交按钮</button>
-            <input type="button" value="button"><br>
-            <label><input type="checkbox" name="fruit" value="banana">checkbox香蕉（多选框）</label>  <br>
-            <label><input type="checkbox" name="fruit" value="apple">checkbox苹果（多选框）</label>  <br>
-            <input type="radio" name="loveme" value="Yes"> radio Yes（单选框）<br>
-            <input type="radio" name="loveme" value="No"> radio No（单选框）<br>
-            <select name="分组" id="selected" multiple>
-                <option value="1">-</option>
-                <option value="1">第1组</option>
-                <option value="2">第2组</option>
-                <option value="3" disabled>第3组</option>
-                <option value="4" selected>第4组</option>
-            </select>下拉菜单
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            
-            <hr>
-            <input type="color">color <br>
-            <input type="date">date<br>
-            <input type="datetime-local">datetime-local<br>
-            <input type="email">email<br>
-            <input type="hidden">hidden <br>
-            <input type="mouth">mouth <br>
-            <input type="image">image<br>
-            <input type="number">number<br>
-            <input type="reset">reset<br>
-            <input type="search">search<br>
-            <input type="range">range<br>
-            <input type="submit">submit<br>
-            <input type="tel">tel <br>
-            <input type="text">text <br>
-            <input type="time">time <br>
-            <input type="week">week <br>
-            <input type="url">url <br>   
-            <input type="submit" value="提交">
-        </form>
-    </div>
-
-        <div class="table">
-            <table>
-                <colgroup>
-                    <col width="100">
-                    <col bgcolor="skyblue" width="200">
-                    <col width="100">
-                    <col width="70">
-                </colgroup>
-                <thead>
-                    <tr>
-                        <th>表头</th>
-                        <th>表头</th>
-                        <th>表头</th>
-                        <th>表头</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>sum</th>
-                        <td>100</td>
-                        <td>100</td>
-                        <td>100</td>
-                    </tr>
-                    <tr>
-                        <th>sum</th>
-                        <td>100</td>
-                        <td>100</td>
-                        <td>100</td>
-                    </tr>
-                    <tr>
-                        <th>sum</th>
-                        <td>100</td>
-                        <td>100</td>
-                        <td>100</td>
-                    </tr>
-                    <tr>
-                        <th>sum</th>
-                        <td>100</td>
-                        <td>100</td>
-                        <td>100</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <th>sum</th>
-                    <td>200</td>
-                    <td>200</td>
-                    <td>200</td>
-                </tfoot>
-            </table>
-        </div>
+    <table>
+        <caption>学生信息统计表</caption>
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>年纪</th>
+                <th>班级</th>
+                <th>分数</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>小谷</td>
+                <td>4</td>
+                <td>90</td>
+                <td rowspan="2">一班</td>
+            </tr>
+            <tr>
+                <td>小丽</td>
+                <td>20</td>
+                <td>99</td>
+                
+            </tr>
+            <tr>
+                <td>小明</td>
+                <td>21</td>
+                <td>80</td>
+                <td>二班</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">更多信息查看官网</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>

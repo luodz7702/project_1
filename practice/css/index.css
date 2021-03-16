@@ -1,0 +1,21 @@
+.float{
+    float: left;
+    border: 2px solid red;
+    margin: 10px;
+    padding: 30px;
+}
+img{
+    width: 200px;
+    height:100px;
+    object-fit: contain;
+
+}
+h3 {
+    color:indianred;
+}
+.img {
+    width: 60px;
+}
+video {
+    width: 400px;
+}
