@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'sixStar';  /* project id 2433961 */
+    src: url('//at.alicdn.com/t/font_2433961_r72a4hisev.eot');
+    src: url('//at.alicdn.com/t/font_2433961_r72a4hisev.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_2433961_r72a4hisev.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_2433961_r72a4hisev.woff') format('woff'),
+    url('//at.alicdn.com/t/font_2433961_r72a4hisev.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_2433961_r72a4hisev.svg#iconfont') format('svg');
+}
+body {
+    font-family: 'sixStar';
+    font-size:20px;
+    color: #666;
+}
+.sixstar::before {
+    content: '\e658';
+}
+/* font-style */
+.normal {
+    font-style:normal;
+}
+.italic {
+    font-style:italic;
+}
+.oblique {
+    font-style:oblique;
+}
+
+/* font-weight */
+.normal-weight{
+    font-weight: normal;
+}
+.bold {
+    font-weight: bold;
+}
+.lighter {
+    font-weight: lighter;
+}
+.bolder {
+    font-weight: bolder;
+}
+/* text-decoratoin */
+.none-decoration {
+    text-decoration: none;
+}
+.underline {
+    text-decoration: underline;
+}
+.overline {
+    text-decoration: overline;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.wavy {
+    text-decoration: underline green wavy;
+}
+
+
