@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list、bg、border、table</title>
+    <style>
+        .none{
+            list-style: none;
+        }
+        .square{
+            list-style:square;
+        }
+        .inside{
+            list-style:inside;
+        }
+        .outside{
+            list-style:outside;
+        }
+        .url_img{
+            list-style:url(./img/banana.png);
+        }
+        .linear-gradient{
+            height: 50px;
+            background-image:linear-gradient(green,red)
+        }
+
+
+        .background-clip {   
+            height: 200px;
+            border: 1px solid red;
+            padding: 20px;
+            margin: 50px;
+            background-image: url(./img/hot.jpeg);
+            background-repeat: repeat;
+            background-clip:content-box;
+        }
+
+        
+
+        .repeat{
+            height: 200px;
+            background-image: url(./img/hot.jpeg);
+            background-repeat: repeat;
+        }
+        .repeat-x{
+            height: 200px;
+            background-image: url(./img/hot.jpeg);
+            background-repeat: repeat-x;
+        }
+        .repeat-y{
+            height: 200px;
+            background-image: url(./img/hot.jpeg);
+            background-repeat: repeat-y;
+        }
+
+        .radius {
+            height: 200px;
+            width:200px;
+            border: 2px solid red;
+            border-radius: 100px;
+        }
+        .trilateral{
+            width: 0px;
+            height: 0px;
+            border: 100px solid transparent;
+            border-top-color: red; 
+        }
+
+        td {
+            border: 1px solid red;
+        }
+        table {
+            border-collapse:separate;
+        }
+
+        .vertical-align{
+            font: 40px/80px Arial;
+            display: inline-block;
+        }
+        .baseline-bg {
+            vertical-align: baseline;
+            
+        }
+        .middle-bg {
+            vertical-align: middle;
+        }
+        .top-bg {
+            vertical-align: top;
+        }
+        .bottom-bg {
+            vertical-align: bottom;
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    <ul >
+        <li class="none">list-style:none (删除默认符号）</li>
+        <li class="square">list-style:quare （方形符号）</li>
+        <li class="inside">list-style:inside （在盒模型里面）</li>
+        <li class="outside">list-style:outside （在盒模型外面）</li>
+        <li class="url_img">list-style:url()  (图形符号) </li>
+    </ul>
+    <div class="linear-gradient">渐变色背景</div>
+
+    <div class="background-clip">clip</div>
+    <div class="repeat">背景重复</div>
+    <hr>
+
+    <div class="repeat-x">背景水平重复</div>
+    <div class="repeat-y">背景垂直重复</div>
+<br>
+<br>
+<br>
+    <div class="radius">圆形</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>三角形
+    <div class="trilateral"></div>
+<br>
+<br>
+<br>
+    <table>
+        <tr>
+            <td>-1-</td>
+            <td>-1-</td>
+            <td>-1-</td>
+            <td>-1-</td>
+            <td>-1-</td>
+        </tr>
+        <tr>
+            <td>-1-</td>
+            <td>-1-</td>
+            <td>-1-</td>
+            <td>-1-</td>
+            <td>-1-</td>
+        </tr>
+        <tr>
+            <td>-1-</td>
+            <td>-1-</td>
+            <td>-1-</td>
+            <td>-1-</td>
+            <td>-1-</td>
+        </tr>
+    </table>
+    <div class="vertical-align">
+        <span class="bashline-bg">bg基线</span>
+        <span class="middle-bg">bg中线</span>
+        <span class="top-bg">bg顶线</span>
+        <span class="bottom-bg">bg底线</span>
+    </div>
+
+
+</body>
+</html
