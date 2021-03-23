@@ -36,3 +36,56 @@ p {
     margin: 20px;  
     float: left;
 }
+
+
+
+article {
+    width: 150px;
+    height: 300px;
+    background: green;
+    float: left;
+}
+
+aside {
+    width:150px;
+    height: 300px;
+    background: green;
+    float: right;
+}
+main {
+    height:100px;
+    background: orange;
+    margin-left: 160px;
+    margin-right: 160px;    
+}
+footer {
+    background: red;
+}
+
+
+li {   
+    float: left;
+    margin-left: 10px;
+}
+ul {
+    list-style: none;
+    border: 1px dotted blue;
+    background: red;
+}
+
+
+.boxx {
+    border: 1px dashed red;
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+.pencil_box {
+    border: 5px solid green;
+    background: yellow;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
