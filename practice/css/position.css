@@ -36,3 +36,13 @@
 .box1 {
     position: relative;
 }
+.sticky {
+    position: sticky;
+    bottom: 10px;
+    top: 10px;
+    background:red ;
+
+}
+.div_sticky {
+    border: 10px dashed red;
+}

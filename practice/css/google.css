@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 2433961 */
+    src: url('//at.alicdn.com/t/font_2433961_ymez4oyqb6q.eot');
+    src: url('//at.alicdn.com/t/font_2433961_ymez4oyqb6q.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_2433961_ymez4oyqb6q.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_2433961_ymez4oyqb6q.woff') format('woff'),
+    url('//at.alicdn.com/t/font_2433961_ymez4oyqb6q.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_2433961_ymez4oyqb6q.svg#iconfont') format('svg');
+  }
+  * {
+      box-sizing: border-box;
+  }
+
+body {
+    font-family: 'iconfont';
+    color: #777;
+}
+.logo::before {
+    content:'\ea0c';
+    font-family: 'iconfont';
+}
+
+.mic::after {
+    content:'\e666';
+    font-family: 'iconfont';
+}
+
+.search::before {
+    content:'\e603';
+    font-family: 'iconfont';
+}
+
+.bg {
+    
+    width: 300px;
+    height: 100px;
+    margin: 100px auto 0px auto;
+    background: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20170717%2F1948cbf7de3b41a6b7405ed653792903.jpeg&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1619189053&t=bab54655de7143ee65499f992e0969d7) center no-repeat;
+    background-size: contain;
+}
+
+div.search_bar {
+    position: relative;
+    box-shadow: 0 0 0 1px #ccc;
+    border-radius: 20px;
+    max-width: 700px;
+    height: 40px;
+    margin: 40px auto;
+}
+.search {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 20px;
+}
+
+.search_bar input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    padding: 0 50px;
+    font-size: 20px;
+}
+.mic {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    right: 20px;
+}
+.buttons {
+    text-align: center;
+}
+.buttons span {
+    background: #ddd;
+    border-radius: 4px;
+    color: #555;
+    font-size: 12px;
+    padding: 6px 12px;
+    margin: 14px 8px;
+    display: inline-block;
+}
