@@ -1,0 +1,30 @@
+.tip {
+    position: relative;
+    color: #ff331c;
+    cursor: pointer;
+}
+
+.tooltip {
+    position: absolute;
+    top: calc(100% + 15px);
+    left: 10px;
+    color:#fff;
+    font-size: 14px;
+    background:#223;
+    border-radius: 6px;
+    padding: 8px;
+    width: 200px;
+    display: none;
+}
+
+.tooltip::before {
+    content: '';
+    position: absolute;
+    top: -16px;
+    left: 10px;
+    border: 8px solid transparent;
+    border-bottom-color: #333;
+}
+.tip:hover .tooltip {
+    display: block;
+}
