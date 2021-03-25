@@ -1,0 +1,17 @@
+body,h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+.jsbar,.javabar,.pybar {
+    border: 2px solid #f00;
+    margin: 0 15px;
+
+}
+.js,.java,.py {
+    position: sticky;
+    top:10px;
+    bottom: 10px;
+    background: #00f;
+    color: #0f0;
+}
