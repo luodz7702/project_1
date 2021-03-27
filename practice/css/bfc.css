@@ -1,0 +1,30 @@
+.box0{ 
+    border: 2px solid #000;
+    /* float: left; */
+   }
+.box {
+    border: 1px dashed red;
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+}
+.box1{
+    background: #f00;
+    float: left;
+}
+.box2{
+    background: #0f0;
+    display: flow-root;
+}
+.box3{
+    background: #00f;
+    display: flow-root;
+}
+.box4{
+    background: #ff0;
+    display: flow-root;
+}
+.box5{
+    background: #0ff;
+    display: flow-root;
+}
