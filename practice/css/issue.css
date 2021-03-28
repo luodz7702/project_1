@@ -1,0 +1,25 @@
+.content {
+    display: flex;
+    flex:1;
+
+    height: 50vh;
+    border: 1px dashed;
+}
+main {
+    flex: 1;
+    background: #0ff;
+}
+aside {
+
+    background: #ff0;
+    width: 150px;
+}
+.content :nth-child(2){
+    order:-1;
+}
+header{
+    background: #f00;
+}
+footer {
+    background: #f0f;
+}

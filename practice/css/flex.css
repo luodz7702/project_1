@@ -12,14 +12,19 @@
 }
 .box1 {
     order: 3;
+    width: 200px;
     background:#f00;
+    0
 }
 .box2 {
     order: 1;
     background: #0f0;
+    width: 200px;
+    align-self: center;
 }
 .box3 {
     background: #00f;
+    width: 200px;
 }
 .box4 {
     background: #ff0;
