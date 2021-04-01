@@ -1,0 +1,13 @@
+p {
+  font-size: 30px;
+}
+@media print {
+  .dayin {
+    font-size:60px;
+  }
+}
+@media screen and (max-width:1000px) {
+  .budayin2 {
+    color:red;
+  }
+}
