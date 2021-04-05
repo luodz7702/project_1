@@ -2,16 +2,17 @@
     display: flex;
     flex:1;
 
-    height: 50vh;
+    height: 100vh;
     border: 1px dashed;
 }
 main {
     flex: 1;
-    background: #0ff;
+    background: #fff;
+
 }
 aside {
 
-    background: #ff0;
+    background: #fff;
     width: 150px;
 }
 .content :nth-child(2){
@@ -22,4 +23,49 @@ header{
 }
 footer {
     background: #f0f;
+}
+/* ul :nth-of-type(3){
+    background: #f00;
+} */
+/* a:link {
+    color: red;
+} */
+
+.city:checked {
+    background-color: #f00;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+}
+.city:disabled {
+    background: orange;
+    appearance: none;
+    width: 20px;
+    height: 20px;    
+}
+
+input:focus {
+    background: green;
+}
+
+
+.tab {
+    border:1px dashed red;
+}
+.content1 {
+    width: 200px;
+    height:200px;
+    border:1px dashed green;
+    display:none;
+}
+.content1:target {
+    /* display: block; */
+}
+
+ul :not(li){
+    color: blue;
+}
+
+.one::selection {
+    color:red;
 }
