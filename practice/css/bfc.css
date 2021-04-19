@@ -11,14 +11,16 @@
 .box1{
     background: #f00;
     float: left;
+    overflow:hidden;
+
 }
 .box2{
     background: #0f0;
-    display: flow-root;
+    overflow: scroll;
 }
 .box3{
     background: #00f;
-    display: flow-root;
+    display: inline-block;
 }
 .box4{
     background: #ff0;
